@@ -1,0 +1,15 @@
+#slide-out{
+padding-top: 2%;
+opacity: 0.8;
+}
+
+/* .side-nav li>a{
+color: aliceblue;
+}
+a{
+color:white;
+} */
+
+#nav-slider{
+display: none;
+}

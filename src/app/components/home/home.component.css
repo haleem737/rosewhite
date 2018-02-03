@@ -1,0 +1,38 @@
+#left-container{
+background: url("../../../../src/assets/img/first-room.jpg") no-repeat center;
+height: 100vh;
+background-size: cover;
+-webkit-transform: scale(1,1);
+-webkit-transition: all 0.5s ease-in-out;
+}
+
+#left-container:hover{
+-webkit-transform: scale(1.09,1.09);
+-webkit-transition: all 0.3s ease-in-out;
+}
+
+#top-right-container{
+background: url("../../../../src/assets/img/bancake.jpg") no-repeat center;
+height: 50vh;
+background-size: cover;
+-webkit-transform: scale(1,1);
+-webkit-transition: all 0.5s ease-in-out;
+}
+
+#top-right-container:hover{
+-webkit-transform: scale(1.09,1.09);
+-webkit-transition: all 0.3s ease-in-out;
+}
+
+#bottom-right-container{
+background: url("../../../../src/assets/img/gym.jpg") no-repeat center;
+height: 50vh;
+background-size: cover;
+-webkit-transform: scale(1,1);
+-webkit-transition: all 0.5s ease-in-out;
+}
+
+#bottom-right-container:hover{
+-webkit-transform: scale(1.09,1.09);
+-webkit-transition: all 0.3s ease-in-out;
+}
