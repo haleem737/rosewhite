@@ -1,0 +1,19 @@
+#section0{
+background: url("../../../../src/assets/img/big-rrom.jpg") no-repeat center;
+height: 100vh;
+}
+
+#section1{
+background: url("../../../../src/assets/img/saloon.jpg") no-repeat center;
+height: 100vh;
+}
+
+#section2{
+background: url("../../../../src/assets/img/bathroom.jpg") no-repeat center;
+height: 100vh;
+}
+
+.section{
+padding: 0;
+margin: 0;
+}

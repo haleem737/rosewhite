@@ -1,0 +1,14 @@
+#section0{
+background: url("../../../../src/assets/img/restaurant.jpg") no-repeat center;
+height: 100vh;
+}
+
+#section2{
+background: url("../../../../src/assets/img/restaurant2.jpg") no-repeat center;
+height: 100vh;
+}
+
+.section{
+padding: 0;
+margin: 0;
+}

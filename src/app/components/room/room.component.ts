@@ -3,11 +3,11 @@ import { Component, OnInit } from '@angular/core';
 declare var $:any;
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-room',
+  templateUrl: './room.component.html',
+  styleUrls: ['./room.component.css']
 })
-export class HomeComponent implements OnInit {
+export class RoomComponent implements OnInit {
 
   constructor() { }
 

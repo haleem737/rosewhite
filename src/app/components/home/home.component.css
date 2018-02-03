@@ -1,13 +1,44 @@
+.overlay-color{
+transition: background-color 0.5s ease;  
+background:rgba(0, 0, 0, 0.15);
+height:100vh;
+}
+
+.overlay-color:hover{
+background:rgba(75, 52, 19, 0);
+}
+
+*{
+margin:0;
+padding:0;
+}
+
+h1{
+color: aliceblue;
+}
+
 #left-container{
-background: url("../../../../src/assets/img/first-room.jpg") no-repeat center;
 height: 100vh;
 background-size: cover;
+}
+
+#section0{
+background: url("../../../../src/assets/img/second-room.jpg") no-repeat center;
+height: 100vh;
+}
+
+#section1{
+background: url("../../../../src/assets/img/first-room.jpg") no-repeat center;
+height: 100vh;
+}
+
+.section{
 -webkit-transform: scale(1,1);
 -webkit-transition: all 0.5s ease-in-out;
 }
 
-#left-container:hover{
--webkit-transform: scale(1.09,1.09);
+.section:hover{
+-webkit-transform: scale(1.04,1.04);
 -webkit-transition: all 0.3s ease-in-out;
 }
 
@@ -20,7 +51,7 @@ background-size: cover;
 }
 
 #top-right-container:hover{
--webkit-transform: scale(1.09,1.09);
+-webkit-transform: scale(1.04,1.04);
 -webkit-transition: all 0.3s ease-in-out;
 }
 
@@ -33,6 +64,6 @@ background-size: cover;
 }
 
 #bottom-right-container:hover{
--webkit-transform: scale(1.09,1.09);
+-webkit-transform: scale(1.04,1.04);
 -webkit-transition: all 0.3s ease-in-out;
 }
