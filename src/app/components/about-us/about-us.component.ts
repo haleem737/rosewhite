@@ -12,7 +12,7 @@ export class AboutUsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    $('.test').css('background-color', '#661266');
+    $('#fullpage').fullpage();
   }
 
 }

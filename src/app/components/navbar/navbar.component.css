@@ -3,6 +3,14 @@ padding-top: 4%;
 opacity: 0.8;
 }
 
+.nav-link{
+font-size: 18   px;
+}
+
+.nav-link:hover{
+color:#87540d;
+}
+
 /* .side-nav li>a{
 color: aliceblue;
 }

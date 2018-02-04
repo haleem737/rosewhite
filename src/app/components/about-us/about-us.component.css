@@ -1,8 +1,19 @@
-header, main, footer {
-    padding-left: 300px;
+#section0{
+  background: url("../../../../src/assets/img/building1.jpg") no-repeat center;
+  height: 100vh;
   }
-  @media only screen and (max-width : 992px) {
-    header, main, footer {
-      padding-left: 0;
-    }
+  
+  #section1{
+  background: url("../../../../src/assets/img/focus.jpg") no-repeat center;
+  height: 100vh;
+  }
+  
+  #section2{
+  background: url("../../../../src/assets/img/building2.jpg") no-repeat center;
+  height: 100vh;
+  }
+  
+  .section{
+  padding: 0;
+  margin: 0;
   }

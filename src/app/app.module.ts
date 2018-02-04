@@ -9,6 +9,7 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { Home2Component } from './components/home2/home2.component';
 import { RestaurantComponent } from './components/restaurant/restaurant.component';
 import { RoomComponent } from './components/room/room.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { RoomComponent } from './components/room/room.component';
     AboutUsComponent,
     Home2Component,
     RestaurantComponent,
-    RoomComponent
+    RoomComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
@@ -29,6 +31,7 @@ import { RoomComponent } from './components/room/room.component';
       { path: 'home2' , component: Home2Component },
       { path: 'restaurant' , component: RestaurantComponent },
       { path: 'room' , component: RoomComponent },
+      { path: 'contacts' , component: ContactsComponent },
     ]),
   ],
   providers: [],
