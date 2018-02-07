@@ -12,11 +12,17 @@ export class ContactsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    $('#fullpage').fullpage();
-
     
-    $('.bg-map').css('width', $(window).width());
-    $('.bg-map').css('height', $(window).height());
-  }
+    //destroying
+    if($('html').hasClass('fp-enabled')){
+      $.fn.fullpage.destroy('all');
+    }
 
+    //initializing 
+      $('#fullpage').fullpage();
+
+      $('.bg-map').css('width', $(window).width());
+      $('.bg-map').css('height', $(window).height());
+    }
+  
 }

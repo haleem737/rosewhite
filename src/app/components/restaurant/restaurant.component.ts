@@ -12,7 +12,14 @@ export class RestaurantComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    $('#fullpage').fullpage();
-  }
+    
+    //destroying
+    if($('html').hasClass('fp-enabled')){
+      $.fn.fullpage.destroy('all');
+    }
+
+    //initializing 
+      $('#fullpage').fullpage();
+    }
 
 }

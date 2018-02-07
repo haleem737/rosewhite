@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
-import { Home2Component } from './components/home2/home2.component';
 import { RestaurantComponent } from './components/restaurant/restaurant.component';
 import { RoomComponent } from './components/room/room.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
@@ -18,7 +17,6 @@ import { ContactsComponent } from './components/contacts/contacts.component';
     NavbarComponent,
     HomeComponent,
     AboutUsComponent,
-    Home2Component,
     RestaurantComponent,
     RoomComponent,
     ContactsComponent
@@ -28,7 +26,6 @@ import { ContactsComponent } from './components/contacts/contacts.component';
     RouterModule.forRoot([
       { path: '' , component: HomeComponent },
       { path: 'about-us' , component: AboutUsComponent },
-      { path: 'home2' , component: Home2Component },
       { path: 'restaurant' , component: RestaurantComponent },
       { path: 'room' , component: RoomComponent },
       { path: 'contacts' , component: ContactsComponent },
